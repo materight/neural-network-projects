@@ -1,7 +1,7 @@
 # Neural Network Flappy Bird
 A simple AI that learns to play Flappy Bird.
 
-If you want to try it: https://materight.github.io/FlappyBird/
+If you want to try it: https://materight.github.io/flappy-bird/
 
 ## Neural netwoek implementation
 Each birda has it's own neural network, is based on 3 layers:
