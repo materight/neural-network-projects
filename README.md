@@ -1,2 +1,2 @@
-# neural-network-projects
-Some experiments with neural networks
+# Neural network project
+Some experiments with my neural network implementation in JavaScript. 

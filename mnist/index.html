@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+    <script type="module" src="mnist.js"></script>
+    <script src="sketch.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif
+        }
+
+        #prediction {
+            width: 420px;
+            text-align: center;
+            visibility: hidden;
+        }
+
+        #digitPreview {
+            margin-bottom: 2px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="prediction"></div>
+    <div id="container"></div>
+    <button id="clear-btn">Clear</button>
+    <button id="export-btn">Export</button>
+    <input type="file" value="Import" />
+</body>
+
+</html>
